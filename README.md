@@ -29,10 +29,10 @@ The unique values for each categorical column are as follows:
     - They have a heavy right skew
     - Most values cluster up around 0 on the left side of the curve.  
 
-    <img src="figures/wage1dist.png" width="400" height="300">  
-    <img src="figures/wage2dist.png" width="400" height="300">  
-    <img src="figures/wage3dist.png" width="400" height="300">  
-    <img src="figures/wage4dist.png" width="400" height="300">
+    <img src="figures/wage1dist.png" width="500" height="400">  
+    <img src="figures/wage2dist.png" width="500" height="400">  
+    <img src="figures/wage3dist.png" width="500" height="400">  
+    <img src="figures/wage4dist.png" width="500" height="400">
 
 
 #### Semantics
@@ -47,8 +47,9 @@ The unique values for each categorical column are as follows:
     - As wages increase in one year, they tend to increase in the other years too.
     - From the pairplot, we can say that the 4 wage year columns show a clear upward linear pattern.
     - Doesn't seem to have much correlation with district code.  
-    <img src="figures/pairplot.png" width="500" height="400">  
-    <img src="figures/corr.png" width="400" height="300">
+    <img src="figures/pairplot.png" width="700" height="600">
+ 
+    <img src="figures/corr.png" width="500" height="400">
 
 ## Part 2 - Build a model to predict ```WAGE_YEAR4```
 Python notebook [here](https://github.com/USF-AI-Fall-2025/assignment-05-data-challenge-1-chansrinivas/blob/main/CS%20x62%20-%20Assignment%205%20-%20Data%20Challenge%201.ipynb).
