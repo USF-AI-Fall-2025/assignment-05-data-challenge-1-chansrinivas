@@ -56,7 +56,7 @@ Python notebook [here](https://github.com/USF-AI-Fall-2025/assignment-05-data-ch
 
 ## Part 3 - Reflection
 1. Which features best predict the target outcome (WAGE_YEAR4)?
-    - ```WAGE_YEAR3``` has an importance score of ≈ 0.99, meaning it explains almost all of the predictive power for ```WAGE_YEAR4```
+    - ```WAGE_YEAR3``` has an importance score of 0.99, meaning it explains almost all of the influence in predicting ```WAGE_YEAR4```
     - This makes sense because wages across consecutive years are highly correlated
     - ```WAGE_YEAR2``` and ```WAGE_YEAR1``` have very small importance values
     - Other features like ```DISTRICT_CODE```, ```DISTRICT_NAME```, ```AWARD_CATEGORY```, and ```STUDENT_POPULATION``` have extremely low importances, almost close to zero.
